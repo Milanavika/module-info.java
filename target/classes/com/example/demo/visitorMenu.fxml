@@ -5,51 +5,59 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="400.0" prefWidth="813.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Pane layoutX="3.0" prefHeight="47.0" prefWidth="600.0" style="-fx-border-style: dotted;">
+      <Pane prefHeight="63.0" prefWidth="813.0" style="-fx-border-style: solid;">
          <children>
-            <ImageView fitHeight="47.0" fitWidth="78.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="55.0" fitWidth="42.0" layoutX="3.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../images/img.png" />
                </image>
             </ImageView>
-            <Label layoutX="250.0" layoutY="14.0" text="Visitor Menu">
+            <Label layoutX="338.0" layoutY="17.0" text="Visitor Menu">
                <font>
-                  <Font name="Verdana" size="16.0" />
+                  <Font name="Verdana" size="20.0" />
                </font>
             </Label>
-            <Button layoutX="527.0" layoutY="12.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" text="Back" />
-            <Label layoutX="34.0" layoutY="29.0" text="NBA Management System">
+            <Button layoutX="735.0" layoutY="21.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" style="-fx-background-radius: 30;" text="Back" />
+            <Label layoutX="40.0" layoutY="36.0" text="NBA Management System">
                <font>
-                  <Font name="Verdana" size="10.0" />
+                  <Font name="Verdana" size="12.0" />
                </font>
             </Label>
          </children>
       </Pane>
-      <Pane layoutX="31.0" layoutY="97.0" prefHeight="265.0" prefWidth="539.0" style="-fx-border-style: dotted;">
+      <Pane layoutX="74.0" layoutY="90.0" prefHeight="346.0" prefWidth="666.0" style="-fx-border-style: dotted;">
          <children>
-            <Button layoutX="75.0" layoutY="58.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="152.0" style="-fx-background-color: #69c;" text="Teams" textAlignment="CENTER" textFill="WHITE">
+            <Button layoutX="91.0" layoutY="82.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="204.0" style="-fx-background-color: #69c;" text="Teams" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Verdana" size="18.0" />
                </font>
             </Button>
-            <Button layoutX="343.0" layoutY="58.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="152.0" style="-fx-background-color: #69c;" text="Players" textAlignment="CENTER" textFill="WHITE">
+            <Button layoutX="380.0" layoutY="82.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="204.0" style="-fx-background-color: #69c;" text="Players" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Verdana" size="18.0" />
                </font>
             </Button>
-            <Button layoutX="343.0" layoutY="165.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="152.0" style="-fx-background-color: #69c;" text="Photos" textAlignment="CENTER" textFill="WHITE">
+            <Button layoutX="380.0" layoutY="201.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="204.0" style="-fx-background-color: #69c;" text="Photos" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Verdana" size="18.0" />
                </font>
             </Button>
-            <Button layoutX="75.0" layoutY="165.0" mnemonicParsing="false" prefHeight="47.0" prefWidth="152.0" style="-fx-background-color: #69c;" text="Matchups" textAlignment="CENTER" textFill="WHITE">
+            <Button layoutX="91.0" layoutY="201.0" mnemonicParsing="false" prefHeight="63.0" prefWidth="204.0" style="-fx-background-color: #69c;" text="Matchups" textAlignment="CENTER" textFill="WHITE">
                <font>
                   <Font name="Verdana" size="18.0" />
                </font>
             </Button>
          </children>
       </Pane>
+
+
+      <Pane layoutY="500.0" prefHeight="25.0" prefWidth="813.0" style="-fx-background-color: #69c;">
+         <children>
+            <Label layoutX="217.0" layoutY="4.0" text="The current season is 2016-2017, and the NBA already has a history of 71 years." textFill="WHITE" />
+         </children>
+      </Pane>
+
    </children>
 </AnchorPane>

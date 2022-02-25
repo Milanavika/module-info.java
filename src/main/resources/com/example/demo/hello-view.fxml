@@ -52,7 +52,7 @@
                   <Font name="Verdana" size="60.0" />
                </font>
             </Label>
-            <Pane layoutX="83.0" layoutY="12.0" prefHeight="91.0" prefWidth="109.0" style="-fx-border-style: dotted;">
+            <Pane layoutX="83.0" layoutY="12.0" prefHeight="91.0" prefWidth="109.0" style="-fx-border-style: solid;">
                <children>
                   <Label layoutX="34.0" layoutY="37.0" prefHeight="18.0" prefWidth="42.0" text="Photo" textAlignment="RIGHT">
                      <font>
@@ -61,7 +61,7 @@
                   </Label>
                </children>
             </Pane>
-            <Pane layoutX="240.0" layoutY="11.0" prefHeight="91.0" prefWidth="109.0" style="-fx-border-style: dotted;">
+            <Pane layoutX="240.0" layoutY="11.0" prefHeight="91.0" prefWidth="109.0" style="-fx-border-style: solid;">
                <children>
                   <Label layoutX="34.0" layoutY="37.0" prefHeight="18.0" prefWidth="42.0" text="Photo" textAlignment="RIGHT">
                      <font>
